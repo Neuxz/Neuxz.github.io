@@ -1,6 +1,7 @@
 var main = function() {
-	Boolean isOpen = false;
+  var isOpen = false;
   $('.icon-menu').click(function() {
+  	console.log("IN");
   	if(isOpen){
     $('.menu').animate({
       left: "0px"
@@ -10,6 +11,7 @@ var main = function() {
       left: "285px"
     }, 200);
     isOpen = !isOpen;
+
     }
     else
     {
@@ -21,6 +23,7 @@ var main = function() {
       left: "0px"
     }, 200);
     isOpen = !isOpen;
+
     }
   });
 
