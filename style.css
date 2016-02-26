@@ -5,7 +5,13 @@ body {
   position: relative;
 }
 
-  background: #202024 url('pictures/black-thread.png') repeat left top;
+.menu {
+background: #202024 url('pics/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
 
 .jumbotron { 
   height: 100%;
