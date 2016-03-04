@@ -14,6 +14,20 @@ body {
     
 }
 
+.btn-primary {
+	color: #f2f2f2;
+	background: #999999;
+}
+
+.btn-warning {
+	color: #999999;
+	background: #f2f2f2;
+}
+
+.repo {
+  color: #999999;
+  top: "-285px";
+}
 .menu {
   background: #999999;
   left: -285px; 
