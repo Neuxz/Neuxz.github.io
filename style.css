@@ -27,6 +27,7 @@ body {
 .repo {
   color: #999999;
   top: "-285px";
+  padding: 5px;
 }
 .menu {
   background: #999999;

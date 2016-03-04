@@ -39,7 +39,7 @@ var main = function() {
 }, function() {
     $(this).removeClass('btn-warning').addClass('btn-primary');
     $(this).stop().animate({
-        padding: '7px'
+        padding: '3px'
     }, 300);
 });
 
