@@ -3,21 +3,17 @@ var main = function() {
   $('.icon-menu').click(function() {
   	console.log("IN");
   	if(isOpen){
-    $('.menu').animate({
-      left: "0px"
-    }, 200);
+    $('.menu').animate({left: "0px"}, 205);
 
     $('body').animate({
-      left: "285px"
+      left: "300px"
     }, 200);
     isOpen = !isOpen;
 
     }
     else
     {
-    	$('.menu').animate({
-      left: "-285px"
-    }, 200);
+    $('.menu').animate({left: "-285px"}, 205);
 
     $('body').animate({
       left: "0px"
